@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/Fonts/PlayfairDisplay-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("./assets/fonts/Fraunces_9pt_Soft-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/Fonts/Nunito-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer utilities {
+  .shadow-light {
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.4); /* Brighter and larger shadow for dark mode */
+  }
+  .shadow-dark {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); /* Darker and larger shadow for light mode */
+  }
+}
+
+/* Hide the scrollbar but allow scrolling */
+html {
+  overflow: -moz-scrollbars-none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer */
+  scrollbar-width: none; /* For modern browsers */
+}
+
+body {
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none; /* For WebKit-based browsers */
+}
