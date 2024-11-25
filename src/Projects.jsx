@@ -46,7 +46,7 @@ function Projects() {
             <div className="card w-full h-full rounded-xl overflow-hidden">
               <img
                 className="w-full h-full bg-cover"
-                src="src\assets\Calc Webapp.png"
+                src="public/assets/Calc Webapp.png"
                 alt=""
               />
             </div>
@@ -75,7 +75,7 @@ function Projects() {
                 muted
                 loop
               >
-                <source src="src\assets\1123.mp4" type="video/mp4" />
+                <source src="public\assets\1123.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

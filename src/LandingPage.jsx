@@ -62,7 +62,7 @@ function LandingPage() {
       <div className="imageContainer mt-8 flex flex-col sm:flex-col lg:flex-row items-center lg:items-start lg:justify-center space-y-6 lg:space-y-0 lg:space-x-8 px-4">
         {/* Image with Enhanced Shadow */}
         <img
-          src="src/assets/Mienar.gif"
+          src="public\assets\Mienar.gif"
           alt=""
           className={`w-full sm:w-[200px] md:w-[250px] lg:w-[300px] rounded-xl ${
             isDarkMode
