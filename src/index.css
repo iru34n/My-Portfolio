@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "MyFont";
-  src: url("public\assets\Fonts\PlayfairDisplay-VariableFont_wght.ttf")
+  src: url("/assets/Fonts/PlayfairDisplay-VariableFont_wght.ttf")
     format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -12,13 +12,13 @@
 
 @font-face {
   font-family: "Fraunces";
-  src: url("public\assets\Fonts\Fraunces_9pt_Soft-Black.ttf") format("truetype");
+  src: url("/assets/Fonts/Fraunces_9pt_Soft-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Nunito";
-  src: url("public\assets\Fonts\Nunito-Light.ttf") format("truetype");
+  src: url("/assets/Fonts/Nunito-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

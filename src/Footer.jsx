@@ -1,6 +1,4 @@
 import React from "react";
-import logoLight from "./assets/logo-light.svg"; // Light mode logo
-import logoDark from "./assets/logo-dark.svg"; // Dark mode logo
 import { useTheme } from "./components/sub-components/ThemeProvider";
 
 const Footer = () => {
@@ -23,7 +21,9 @@ const Footer = () => {
         <div className="absolute bottom-10">
           <div>
             <img
-              src={isDarkMode ? logoDark : logoLight}
+              src={
+                isDarkMode ? "/assets/logo-dark.svg" : "/assets/logo-light.svg"
+              }
               alt="Logo"
               className="h-16 w-auto"
             />

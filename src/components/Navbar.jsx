@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ThemeToggle from "./sub-components/ThemeToggle";
 import Menu from "./sub-components/Menu";
-import logoLight from "../assets/logo-light.svg"; // Light mode logo
-import logoDark from "../assets/logo-dark.svg"; // Dark mode logo
 import { useTheme } from "./sub-components/ThemeProvider";
 
 const Navbar = () => {
@@ -41,7 +39,7 @@ const Navbar = () => {
     >
       <div>
         <img
-          src={isDarkMode ? logoDark : logoLight}
+          src={isDarkMode ? "/assets/logo-dark.svg" : "/assets/logo-light.svg"}
           alt="Logo"
           className="h-16 w-auto"
         />

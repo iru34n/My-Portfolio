@@ -1,5 +1,4 @@
 import React from "react";
-import Skills from "../src/assets/Skills.svg";
 
 function About() {
   const scrollToSkills = () => {
@@ -45,7 +44,7 @@ function About() {
         <div className="w-full sm:w-1/2 h-[50vh] sm:h-[70vh] overflow-hidden rounded-3xl">
           <img
             className="w-full h-full"
-            src={Skills}
+            src="/assets/Skills.svg"
             alt="Professional environment"
           />
         </div>
